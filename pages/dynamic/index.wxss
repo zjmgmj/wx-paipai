@@ -1,0 +1,19 @@
+/* pages/dynamic/index.wxss */
+.avatar{
+  width: 62rpx;
+  height: 62rpx;
+  border-radius: 100%;
+  overflow: hidden;
+}
+/* .text-name{
+  color: #6383AE;
+} */
+.text-time{
+  color: #A4A2A2;
+}
+.text-949090{
+  color: #949090
+}
+/* .text-address{
+  color: #6383AE;
+} */

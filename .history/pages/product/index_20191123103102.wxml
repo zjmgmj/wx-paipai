@@ -1,0 +1,151 @@
+<!--pages/product/index.wxml-->
+<!-- <text>pages/product/index.wxml</text> -->
+<view class="bg-white padding-bottom-sm">
+  <image src="/images/lucas-marconnet-JEXPV9pqsVM-unsplash@2x.png" style="width: 750rpx; height: 422rpx;"></image>
+  <view class="padding-xs solid-bottom" hover-class="none" hover-stop-propagation="false">
+    <view class="padding" hover-class="none" hover-stop-propagation="false">
+      <view class="text-lg border-bottom-yellow text-title">
+        旅游拍摄
+      </view>
+      <view class="margin-top text-content text-grey" hover-class="none" hover-stop-propagation="false">
+        <view class="" hover-class="none" hover-stop-propagation="false">
+          市内外旅游拍摄 单人，多人，团体旅游等
+        </view>
+        <view class="" hover-class="none" hover-stop-propagation="false">
+          80/小时 不限张数 精修<text class="text-red">5</text>张
+        </view>
+        <view class="" hover-class="none" hover-stop-propagation="false">
+          500/天 不限张数<text class="text-red">30</text>精修
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="padding-xs solid-bottom" hover-class="none" hover-stop-propagation="false">
+    <view class="padding" hover-class="none" hover-stop-propagation="false">
+      <view class="text-lg flex align-center">
+        <image src="/images/custom-icon.png" style="width: 37rpx; height: 39rpx"></image>
+        <text class="padding-left-sm">专业摄影师</text>
+      </view>
+      <view class="margin-top text-content text-grey">
+        千名服务人员高度覆盖，100%认证，安全可靠
+      </view>
+    </view>
+  </view>
+  <view class="padding-xs solid-bottom" hover-class="none" hover-stop-propagation="false">
+    <view class="padding" hover-class="none" hover-stop-propagation="false">
+      <view class="text-lg flex align-center">
+        <image src="/images/order-icon.png" style="width: 37rpx; height: 39rpx"></image>
+        <text class="padding-left-sm">品类最优</text>
+      </view>
+      <view class="margin-top text-content text-grey">
+        精准标签最优推荐，保障服务品质
+      </view>
+    </view>
+  </view>
+  <view class="padding-top-lg text-black">
+    <view class="text-lg flex align-center">
+      <view class="bg-yellow left-block"></view>
+      <text class="padding-left-sm">品类最优</text>
+    </view>
+    <view class="padding">
+      <view class="flex flex-center align-center solid-left solid-top solid-right text-lg text-center">
+        <view class="basis-sm padding solid-right">2小时起</view>
+        <view class="basis-lg padding">80/小时(5张精修)</view>
+      </view>
+      <view class="flex flex-center align-center solid text-lg text-center">
+        <view class="basis-sm padding solid-right">1 天起</view>
+        <view class="basis-lg padding">500/天(30张精修)</view>
+      </view>
+    </view>
+  </view>
+  <view class="padding-top-sm text-black">
+    <view class="text-lg flex align-center">
+      <view class="bg-yellow left-block"></view>
+      <text class="padding-left-sm">说明</text>
+    </view>
+    <view class="padding">
+      <view class="text-content">
+        <text class="text-6383AE">小时计费</text>
+        <text>：按小时收费，不足2小时按2小时计，超过20分钟按1小时计；</text>
+      </view>
+      <view class="margin-top-lg text-content">
+        <text class="text-6383AE">天计费</text>
+        <text>：按天收费，不足1天按1天计，超过3小时按1天计；指定摄影师多天需为摄影师安排住宿；</text>
+      </view>
+    </view>
+  </view>
+  <view class="padding-top-sm text-black">
+    <view class="text-lg flex align-center">
+      <view class="bg-yellow left-block"></view>
+      <text class="padding-left-sm">用户评价</text>
+    </view>
+    <view class="padding-sm">
+      <view class="flex flex-wrap">
+        <view class="pj-card active">全部(12332)</view>
+        <view class="pj-card">好评(12332)</view>
+        <view class="pj-card">技术好(12332)</view>
+        <view class="pj-card">好评(12332)</view>
+        <view class="pj-card">技术好(12332)</view>
+      </view>
+    </view>
+    <view class="margin-top padding solid-bottom">
+      <view class="flex align-center">
+        <image src="/images/avatar.png" style="width: 86rpx; height: 86rpx;"></image>
+        <view class="padding-left-sm">
+          <view class="text-black padding-left-xs">Aisa**123</view>
+          <view class="text-yellow margin-top-xs">
+            <text class="cuIcon-favorfill"></text>
+            <text class="cuIcon-favorfill"></text>
+            <text class="cuIcon-favorfill"></text>
+            <text class="cuIcon-favorfill"></text>
+            <text class="cuIcon-favorfill"></text>
+          </view>
+        </view>
+      </view>
+      <view class="margin-top text-content">
+        摄影师很负责，照片拍出来太美了，很有艺术感 光线角度都一级棒，下次继续过来预约。
+      </view>
+      <view class="margin-top flex justify-between align-center">
+        <view class="flex align-center">
+          <image src="/images/avatar_1.png" style="width: 59rpx; height: 59rpx;"></image>
+          <text class="padding-left-sm">摄影师</text>
+          <text class="padding-left-sm">米雪</text>
+        </view>
+        <view class="text-gray">
+          <text class="">2019-11-12</text>
+          <text class="padding-left-sm">12:15:12</text>
+        </view>
+      </view>
+    </view>
+    <view class="margin-top padding solid-bottom">
+      <view class="flex align-center">
+        <image src="/images/avatar.png" style="width: 86rpx; height: 86rpx;"></image>
+        <view class="padding-left-sm">
+          <view class="text-black padding-left-xs">Aisa**123</view>
+          <view class="text-yellow margin-top-xs">
+            <text class="cuIcon-favorfill"></text>
+            <text class="cuIcon-favorfill"></text>
+            <text class="cuIcon-favorfill"></text>
+            <text class="cuIcon-favorfill"></text>
+            <text class="cuIcon-favorfill"></text>
+          </view>
+        </view>
+      </view>
+      <view class="margin-top text-content">
+        摄影师很负责，照片拍出来太美了，很有艺术感 光线角度都一级棒，下次继续过来预约。
+      </view>
+      <view class="margin-top flex justify-between align-center">
+        <view class="flex align-center">
+          <image src="/images/avatar_1.png" style="width: 59rpx; height: 59rpx;"></image>
+          <text class="padding-left-sm">摄影师</text>
+          <text class="padding-left-sm">米雪</text>
+        </view>
+        <view class="text-gray">
+          <text class="">2019-11-12</text>
+          <text class="padding-left-sm">12:15:12</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="reservation-btn bg-yellow text-white">预约摄影</view>
+</view>

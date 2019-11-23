@@ -1,0 +1,65 @@
+<!--index.wxml-->
+<view class="bg-white">
+  <view class="dashed-F0F0F0">
+    <image src="/images/xiaz6_parker.png" style="width: 750rpx; height: 313rpx; display:block"></image>
+  </view>
+  <view class="margin-top bg-white padding-bottom-sm">
+    <view class="home-card">
+      <view class="flex align-center">
+        <view class="dashed-F0F0F0">
+          <image src="/images/home-camera.png" style="width: 43rpx; height: 42rpx"></image>
+        </view>
+        <view>
+          <text class="padding-left-sm">单次拍摄产品</text>
+        </view>
+      </view>
+      <view class="flex margin-top-xs">
+        <view class="dashed-F0F0F0">
+          <image src="/images/rayul-_M6gy9oHgII-unsplash.png" style="width: 386rpx; height: 188rpx;display:block"></image>
+        </view>
+        <view class="margin-left-lg padding-left-lg dashed-left flex flex-direction justify-center">
+          <view class="text-white shadow bg-yellow home-card-btn">服务预订</view>
+          <view class="text-white shadow bg-yellow home-card-btn margin-top-sm">服务简介</view>
+        </view>
+      </view>
+    </view>
+    <view class="home-card">
+      <view class="flex align-center">
+        <view class="dashed-F0F0F0">
+          <image src="/images/home-travel.png" style="width: 43rpx; height: 42rpx"></image>
+        </view>
+        <view>
+          <text class="padding-left-sm">旅拍产品</text>
+        </view>
+      </view>
+      <view class="flex margin-top-xs">
+        <view class="dashed-F0F0F0">
+          <image src="/images/rayul-_M6gy9oHgII-unsplash.png" style="width: 386rpx; height: 188rpx;display:block"></image>
+        </view>
+        <view class="margin-left-lg padding-left-lg dashed-left flex flex-direction justify-center">
+          <view class="text-white shadow bg-yellow home-card-btn">服务预订</view>
+          <view class="text-white shadow bg-yellow home-card-btn margin-top-sm">服务简介</view>
+        </view>
+      </view>
+    </view>
+    <view class="home-card">
+      <view class="flex align-center">
+        <view class="dashed-F0F0F0">
+          <image src="/images/parent-child.png" style="width: 43rpx; height: 42rpx"></image>
+        </view>
+        <view>
+          <text class="padding-left-sm">单次拍摄产品</text>
+        </view>
+      </view>
+      <view class="flex margin-top-xs">
+        <view class="dashed-F0F0F0">
+          <image src="/images/rayul-_M6gy9oHgII-unsplash.png" style="width: 386rpx; height: 188rpx;display:block"></image>
+        </view>
+        <view class="margin-left-lg padding-left-lg dashed-left flex flex-direction justify-center">
+          <view class="text-white shadow bg-yellow home-card-btn">服务预订</view>
+          <view class="text-white shadow bg-yellow home-card-btn margin-top-sm">服务简介</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

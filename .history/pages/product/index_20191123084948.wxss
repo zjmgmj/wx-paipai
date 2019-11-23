@@ -1,0 +1,11 @@
+/* pages/product/index.wxss */
+.text-title{
+  line-height: 30rpx;
+}
+.border-bottom-yellow:after{
+  background: #FE9A48;
+  content: '';
+  display: block;
+  height: 8rpx;
+  width: 100rpx;
+}

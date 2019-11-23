@@ -1,0 +1,21 @@
+/**index.wxss**/
+.home-card{
+  width: 702rpx;
+  /* height: 275rpx; */
+  margin: 35rpx auto;
+  box-shadow: 0 0 10rpx 1rpx #C9C9C9;
+  padding: 20rpx 30rpx
+}
+.dashed-F0F0F0{
+  border: 1px dashed #999
+}
+.bg-yellow{
+  background: #FE9A48
+}
+.dashed-left{
+  border-left: 1px dashed #666
+}
+.home-card-btn{
+  border-radius: 8rpx;
+  padding: 12rpx 30rpx
+}

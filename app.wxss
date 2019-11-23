@@ -1,0 +1,28 @@
+/**app.wxss**/
+/* .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}  */
+page{
+  color: #343333;
+  background: #fff;
+}
+.text-6383AE{
+  color: #6383AE;
+}
+.text-343333{
+  color: #343333;
+}
+.padding-top-8{
+  padding-top: 8rpx
+}
+.solid-6383AE{
+  border: 1px #6383AE solid
+}
+@import "colorui/main.wxss";
+@import "colorui/icon.wxss";

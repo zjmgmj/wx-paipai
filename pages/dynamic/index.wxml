@@ -1,0 +1,102 @@
+<!--pages/dynamic/index.wxml-->
+<!-- <text>pages/dynamic/index.wxml</text> -->
+<view class="bg-white">
+  <navigator url='/pages/dynamic/detail'>
+    <view class="list">
+      <view class="padding">
+        <view class="flex align-center justify-between">
+          <view class="flex align-center">
+            <view class="avatar">
+              <image src="/images/lucas-marconnet-JEXPV9pqsVM-unsplash@2x.png"></image>
+            </view>
+            <text class="text-df padding-left-sm">发布者</text>
+            <text class="text-df padding-left-xs text-name">米雪</text>
+          </view>
+          <view class="text-df text-time">发布时间 2019/8/12</view>
+        </view> 
+        <view class="padding-top">拥有最摄人心魄的风景，so beautiful !!!</view>  
+      </view>
+      <view>
+        <image src="/images/lucas-marconnet-JEXPV9pqsVM-unsplash@2x.png" style="width: 100%"></image>
+        <view class="flex align-center justify-center padding-xs">
+          <text class="text-949090 padding-right-xs">共6张照片</text>
+          <!-- <icon class="cuIcon-triangledownfill"></icon> -->
+          <image src="/images/Triangle@2x.png" style="width: 19rpx; height: 17rpx"></image>
+        </view>
+        <view class="padding flex justify-between solid-bottom">
+          <view class="flex">
+            <view class="flex align-center">
+              <image src="/images/xin@2x.png" style="width: 37rpx; height: 31rpx"></image>
+              <text class="padding-xs">908</text>
+            </view>
+            <view class="flex align-center padding-left-sm">
+              <image src="/images/pl@2x.png" style="width: 37rpx; height: 31rpx"></image>
+              <text class="padding-xs">908</text>
+            </view>
+            <view class="flex align-center padding-left-sm">
+              <image src="/images/share@2x.png" style="width: 37rpx; height: 31rpx"></image>
+            </view>
+          </view>
+          <view class="text-address align-center flex">
+            <!-- <image src="/images/address@2x.png" style="width: 30rpx; height: 38rpx"></image> -->
+            <view class="text-xl">
+              <text class="cuIcon-locationfill"></text>
+            </view>
+            <text class="text-sm padding-left-xs padding-right-xs">深圳湾公园</text>
+            <view class="text-sm padding-top-8">
+              <text class="cuIcon-right text-sm"></text>
+            </view>
+          </view>
+        </view>
+      </view> 
+    </view>
+  </navigator> 
+  <view class="list">
+    <view class="padding">
+      <view class="flex align-center justify-between">
+        <view class="flex align-center">
+          <view class="avatar">
+            <image src="/images/lucas-marconnet-JEXPV9pqsVM-unsplash@2x.png"></image>
+          </view>
+          <text class="text-df padding-left-sm">发布者</text>
+          <text class="text-df padding-left-xs text-6383AE">米雪</text>
+        </view>
+        <view class="text-df text-time">发布时间 2019/8/12</view>
+      </view> 
+      <view class="padding-top">拥有最摄人心魄的风景，so beautiful !!!</view>  
+    </view>
+    <view>
+      <image src="/images/lucas-marconnet-JEXPV9pqsVM-unsplash@2x.png" style="width: 100%"></image>
+      <view class="flex align-center justify-center padding-xs">
+        <text class="text-949090 padding-right-xs">共6张照片</text>
+        <!-- <icon class="cuIcon-triangledownfill"></icon> -->
+        <image src="/images/Triangle@2x.png" style="width: 19rpx; height: 17rpx"></image>
+      </view>
+      <view class="padding flex justify-between solid-bottom">
+        <view class="flex">
+          <view class="flex align-center">
+            <image src="/images/xin@2x.png" style="width: 37rpx; height: 31rpx"></image>
+            <text class="padding-xs">908</text>
+          </view>
+          <view class="flex align-center padding-left-sm">
+            <image src="/images/pl@2x.png" style="width: 37rpx; height: 31rpx"></image>
+            <text class="padding-xs">908</text>
+          </view>
+          <view class="flex align-center padding-left-sm">
+            <image src="/images/share@2x.png" style="width: 37rpx; height: 31rpx"></image>
+          </view>
+        </view>
+        <view class="text-6383AE align-center flex">
+          <!-- <image src="/images/address@2x.png" style="width: 30rpx; height: 38rpx"></image> -->
+          <view class="text-xl">
+            <text class="cuIcon-locationfill"></text>
+          </view>      
+          <text class="text-sm padding-left-xs padding-right-xs">深圳湾公园</text>
+          <view class="text-sm padding-top-8">
+            <text class="cuIcon-right text-sm"></text>
+          </view>
+        </view>
+      </view>
+    </view> 
+  </view>
+</view>

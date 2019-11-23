@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/product/index",
+    "pages/index/index",
+    "pages/dynamic/detail",
+    "pages/site/index",
+    "pages/dynamic/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小橙拍拍",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#595656",
+    "backgroundColor": "#fff",
+    "selectedColor": "#FE9A48",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/xin@2x.png",
+        "selectedIconPath": "/images/xin_hover@2x.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/dynamic/index",
+        "iconPath": "/images/xin@2x.png",
+        "selectedIconPath": "/images/xin_hover@2x.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/site/index",
+        "iconPath": "/images/xin@2x.png",
+        "selectedIconPath": "/images/xin_hover@2x.png",
+        "text": "拍摄场地"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/xin@2x.png",
+        "selectedIconPath": "/images/xin_hover@2x.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,6 @@
+<!--pages/product/index.wxml-->
+<!-- <text>pages/product/index.wxml</text> -->
+<view class="" hover-class="none" hover-stop-propagation="false">
+  <image src="/images/lucas-marconnet-JEXPV9pqsVM-unsplash@2x.png" mode="widthFix" lazy-load="false" binderror=""
+    bindload=""></image>
+</view>

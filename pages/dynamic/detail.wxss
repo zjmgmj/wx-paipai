@@ -1,0 +1,16 @@
+/* pages/dynamic/detail.wxss */
+.avatar-padding{
+  padding: 0rpx 15rpx
+}
+.avatar-bottom-fixed{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
+.comment-input{
+  background: #F2F2F2;
+  border-radius: 40rpx;
+  width: 406rpx;
+  padding: 8rpx 30rpx;
+}

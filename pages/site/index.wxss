@@ -1,0 +1,10 @@
+/* pages/site/index.wxss */
+.bg-F3F1F1{
+  background: #F3F1F1
+}
+.head-card{
+  width: 200rpx
+}
+.site-content{
+  width: 414rpx;
+}

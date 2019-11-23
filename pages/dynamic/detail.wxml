@@ -1,0 +1,89 @@
+<!--pages/dynamic/detail.wxml-->
+<!-- <text>pages/dynamic/detail.wxml</text> -->
+<view class="bg-white">
+  <swiper class="screen-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+    <swiper-item wx:for="{{swiperList}}" wx:key>
+      <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+    </swiper-item>
+  </swiper>
+  <view class="margin-top-sm padding solid-bottom">
+    <view class="flex align-center justify-between">
+      <view class="text-address align-center flex text-6383AE">      
+        <view class="text-xl">
+          <text class="cuIcon-locationfill"></text>
+        </view>
+        <text class="padding-left-xs padding-right-xs">深圳湾公园</text>
+        <view class="padding-top-8">
+          <text class="cuIcon-right text-sm"></text>
+        </view>
+      </view>
+      <view class="text-df text-time">2019/8/12</view>
+    </view>
+    <view class="text-content padding-top-sm">
+      1940年出生于东京新宿，1958年毕业于日本大学摄影 系。1966年获得日本摄影评论家协会新人奖。1976年 在威尼斯双年展上举办了个展《家》
+    </view>
+    <view class="flex margin-top-sm justify-between">
+      <view class="flex align-center">
+        <image src="/images/avatar.png" style="width: 50rpx; height: 50rpx"></image>
+        <text class="padding-left-sm">米雪</text>
+      </view>
+      <view class="flex align-center">
+        <image src="/images/avatar_1.png" style="width: 50rpx; height: 50rpx"></image>
+        <text class="padding-left-sm">摄影师</text>
+        <text class="padding-left-sm">South Coby</text>
+      </view>
+    </view>
+  </view>
+  <view class="padding margin-bottom-xl">
+    <view class="text-yellow text-bold">
+      <text>共108条评论</text>
+    </view>
+    <view class="margin-top flex">
+      <text class="text-bold">Millie Diaz</text>
+      <text class="padding-left-sm">这个地方好美啊！想去！想去！想去！</text>
+    </view>
+    <view class="margin-top flex text-6383AE align-center">
+      <text class="text-bold">South Coby</text>
+      <view class="solid-6383AE avatar-padding margin-left-xs">作者</view>
+      <text class="padding-left-sm">去吧去吧！真的很值得去一趟。</text>
+    </view>
+    <view class="margin-top flex">
+      <text class="text-bold">Lisa</text>
+      <text class="padding-left-sm">真的值得走一走，好喜欢这里的每一个地方。</text>
+    </view>
+    <view class="margin-top flex">
+      <text class="text-bold">Lisa</text>
+      <text class="padding-left-sm">真的值得走一走，好喜欢这里的每一个地方。</text>
+    </view>
+    <view class="margin-top flex">
+      <text class="text-bold">Lisa</text>
+      <text class="padding-left-sm">真的值得走一走，好喜欢这里的每一个地方。</text>
+    </view>
+    <view class="margin-top flex">
+      <text class="text-bold">Lisa</text>
+      <text class="padding-left-sm">真的值得走一走，好喜欢这里的每一个地方。</text>
+    </view>
+    <view class="margin-top flex">
+      <text class="text-bold">Lisa</text>
+      <text class="padding-left-sm">真的值得走一走，好喜欢这里的每一个地方。</text>
+    </view>
+  </view>
+</view>
+<view class="avatar-bottom-fixed padding solid-top flex align-center justify-between">
+  <view class="comment-input">
+    <input placeholder="写评论"></input>
+  </view>
+  <view class="margin-left-sm flex">
+    <view class="text-red">
+      <text class="cuIcon-likefill"></text>
+    </view>
+    <text class="padding-left-xs">908</text>
+  </view>
+  <view class="margin-left-sm flex">
+    <view class="text-lg">
+      <text class="cuIcon-comment"></text>
+    </view>
+    <text class="padding-left-xs">108</text>
+  </view>
+</view>

@@ -1,0 +1,33 @@
+/* pages/me/coupon/index.wxss */
+.input{
+  width: 393rpx;
+  height: 70rpx;
+  padding: 8rpx 10rpx 0;
+}
+.button{
+  margin-left: 15rpx;
+  /* padding: 0 50rpx; */
+  width: 161rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 28rpx;
+}
+.coupon-box{
+  width: 567rpx;
+  margin: 0 auto
+}
+.coupon-price{
+  width: 170rpx;
+  height: 151rpx;
+}
+.coupon-price-detail{
+  box-sizing: border-box;
+  width: 397rpx;
+  height: 151rpx;
+  padding: 10rpx 0 0 30rpx;
+  background: rgba(51, 50, 50, 0.08);
+  /* padding: 10rpx 10rpx */
+}
+.cu-btn.sm{
+  height: 38rpx;
+}

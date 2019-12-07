@@ -1,0 +1,82 @@
+<!--pages/me/settleIn/infor/index_4.wxml-->
+<!-- <text>pages/me/settleIn/infor/index_4.wxml</text> -->
+<view class="bg-white full-screen padding solid-top padding-bottom-xxl">
+  <view class="margin-bottom">
+    <view class="margin-bottom-sm text-content">
+      <view>芝麻信用分数截图</view>
+      <view class="text-sm text-gray">打开“支付宝”- 点击“芝麻信用</view>
+    </view>
+    <view class="cu-form-group">
+      <!-- <view class="grid col-4 grid-square flex-sub"> -->
+      <view class="grid grid-square flex-sub">
+        <view class="bg-img img-box" wx:for="{{imgList}}" wx:key="{{index}}" bindtap="ViewImage" data-url="{{imgList[index]}}">
+          <image src='{{imgList[index]}}' mode='aspectFill'></image>
+          <view class="cu-tag bg-red" catchtap="DelImg" data-index="{{index}}">
+            <text class="cuIcon-close"></text>
+          </view>
+        </view>
+        <view class="bg-gray add-box" bindtap="ChooseImage" wx:if="{{imgList.length<9}}">
+          <text class="cuIcon-add"></text>
+        </view>
+      </view>
+	  </view>
+  </view>
+  <view class="margin-bottom">
+    <view class="margin-bottom-sm text-content">
+      <view>学历证明</view>
+      <view class="text-sm text-gray">拍摄学历或者学位证书，或者登录“学信网”查询学历记录</view>
+    </view>
+    <view class="cu-form-group">
+      <!-- <view class="grid col-4 grid-square flex-sub"> -->
+      <view class="grid grid-square flex-sub">
+        <view class="bg-img img-box" wx:for="{{imgList}}" wx:key="{{index}}" bindtap="ViewImage" data-url="{{imgList[index]}}">
+          <image src='{{imgList[index]}}' mode='aspectFill'></image>
+          <view class="cu-tag bg-red" catchtap="DelImg" data-index="{{index}}">
+            <text class="cuIcon-close"></text>
+          </view>
+        </view>
+        <view class="bg-gray add-box" bindtap="ChooseImage" wx:if="{{imgList.length<9}}">
+          <text class="cuIcon-add"></text>
+        </view>
+      </view>
+	  </view>
+  </view>
+  <view class="margin-bottom">
+    <view class="margin-bottom-sm text-content">
+      <view>社保记录</view>
+      <view class="text-sm text-gray">打开“支付宝”- 点击“城市服务”-“公积金”-找到社保记录</view>
+    </view>
+    <view class="cu-form-group">
+      <!-- <view class="grid col-4 grid-square flex-sub"> -->
+      <view class="grid grid-square flex-sub">
+        <view class="bg-img img-box" wx:for="{{imgList}}" wx:key="{{index}}" bindtap="ViewImage" data-url="{{imgList[index]}}">
+          <image src='{{imgList[index]}}' mode='aspectFill'></image>
+          <view class="cu-tag bg-red" catchtap="DelImg" data-index="{{index}}">
+            <text class="cuIcon-close"></text>
+          </view>
+        </view>
+        <view class="bg-gray add-box" bindtap="ChooseImage" wx:if="{{imgList.length<9}}">
+          <text class="cuIcon-add"></text>
+        </view>
+      </view>
+	  </view>
+  </view>
+  <view class="margin-bottom">
+    <view class="margin-bottom-sm">其他材料补充</view>
+    <view class="cu-form-group">
+      <!-- <view class="grid col-4 grid-square flex-sub"> -->
+      <view class="grid grid-square flex-sub">
+        <view class="bg-img img-box" wx:for="{{imgList}}" wx:key="{{index}}" bindtap="ViewImage" data-url="{{imgList[index]}}">
+          <image src='{{imgList[index]}}' mode='aspectFill'></image>
+          <view class="cu-tag bg-red" catchtap="DelImg" data-index="{{index}}">
+            <text class="cuIcon-close"></text>
+          </view>
+        </view>
+        <view class="bg-gray add-box" bindtap="ChooseImage" wx:if="{{imgList.length<9}}">
+          <text class="cuIcon-add"></text>
+        </view>
+      </view>
+	  </view>
+  </view>
+</view>
+<button class="next-btn">下一步</button>

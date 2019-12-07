@@ -1,0 +1,27 @@
+/* pages/me/settleIn/infor/index_2.wxss */
+.cu-form-group{
+  min-height: 74rpx;
+  height: 74rpx;
+  /* padding: 1rpx 0; */
+}
+.cu-form-group picker .picker{
+  /* height: 1.4rem; */
+  line-height: 74rpx;
+  text-align: left;
+}
+.cu-form-group picker::after {
+  line-height: 74rpx;
+}
+.radius{
+  border-radius: 20rpx
+}
+radio .wx-radio-input {
+  width: 35rpx;
+  height: 35rpx;
+}
+radio::before {
+  right: 5rpx;
+}
+/* .from-box{
+  height: 74rpx;
+} */

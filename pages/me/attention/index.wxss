@@ -1,0 +1,16 @@
+/* pages/me/attention/index.wxss */
+.author{
+  position: relative;
+  width: 80rpx;
+  height: 80rpx;
+}
+.v-icon{
+  position: absolute;
+  width: 28rpx;
+  height: 28rpx;
+  bottom: 0;
+  right: -5rpx
+}
+.attention{
+  height: 100vh;
+}

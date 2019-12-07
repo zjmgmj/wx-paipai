@@ -1,0 +1,55 @@
+<!--pages/me/settleIn/infor/index_3.wxml-->
+<!-- <text>pages/me/settleIn/infor/index_3.wxml</text> -->
+<view class="bg-white full-screen padding solid-top padding-bottom-xxl">
+ <view class="margin-bottom">
+  <view class="margin-bottom-sm">
+    <text class="text-red">*</text>
+    <text>主要交通方式（多选）</text>
+  </view>
+   <view class="flex flex-wrap">
+    <view class="check-btn active">自驾车</view>
+    <view class="check-btn">公共交通</view>
+    <view class="check-btn">电瓶/摩托</view>    
+  </view>  
+ </view>
+ <view class="margin-bottom">
+  <view class="margin-bottom-sm">
+    <text class="text-red">*</text>
+    <text>可服务时间（多选）</text>
+  </view>
+   <view class="flex flex-wrap">
+    <view class="check-btn active">周末</view>
+    <view class="check-btn">国庆节</view>
+    <view class="check-btn">春节</view>    
+  </view>  
+ </view>
+  <view class="margin-bottom">
+    <view class="margin-bottom-sm">
+      <text class="text-red">*</text>
+      <text>为什么申请摄影师</text>
+    </view>
+    <view class="solid radius padding-sm">
+      <textarea placeholder="请输入" maxlength="300"></textarea>
+    </view>
+  </view>
+<view class="margin-bottom">
+  <view class="text-red margin-bottom-sm">申请前前确认您可以接受以下选项</view>
+  <view class="cu-form-group">
+    <text>我能提供芝麻信用分截图</text>
+    <switch class="yellow sm" ></switch>
+  </view>
+  <view class="cu-form-group">
+    <text>我能提供社保记录</text>
+    <switch class="yellow sm" ></switch>
+  </view>
+  <view class="cu-form-group">
+    <text>我能提供学历证明</text>
+    <switch class="yellow sm"></switch>
+  </view>
+  <view class="cu-form-group">
+    <text>我能接受视频认证</text>
+    <switch class="yellow sm" checked></switch>
+  </view>
+</view>
+</view>
+<button class="next-btn">下一步</button>

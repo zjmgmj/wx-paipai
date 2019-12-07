@@ -1,0 +1,32 @@
+<!--pages/me/order/checkImage.wxml-->
+<!-- <text>pages/me/order/checkImage.wxml</text> -->
+<view class="bg-white">
+  <view class="text-lg padding">请选择需要精修的照片</view>
+  <view class="cu-list grid col-3 no-border">
+    <view class="cu-item">
+      <image src="/images/joao-paulo-de-souza-oliveira-QWhQ82y_e8c-unsplash.png" style="width: 205rpx; height: 163rpx;">
+      </image>
+    </view>
+    <view class="cu-item ">
+      <image src="/images/joao-paulo-de-souza-oliveira-QWhQ82y_e8c-unsplash.png" style="width: 205rpx; height: 163rpx;">
+      </image>
+    </view>
+    <view class="cu-item ">
+      <image src="/images/joao-paulo-de-souza-oliveira-QWhQ82y_e8c-unsplash.png" style="width: 205rpx; height: 163rpx;">
+      </image>
+    </view>
+    <view class="cu-item ">
+      <image src="/images/joao-paulo-de-souza-oliveira-QWhQ82y_e8c-unsplash.png" style="width: 205rpx; height: 163rpx;">
+      </image>
+    </view>
+  </view>
+  <view class="solid-top padding margin-top flex align-center justify-between">
+    <text class="">请输入邮箱地址</text>
+    <view class="flex-sub text-blue text-right">
+      <input type="text" value="10986775456@qq.com"></input>
+    </view>
+  </view>
+</view>
+<view class="text-center margin-top">
+  <button class="cu-btn radius bg-yellow text-white">确定</button>
+</view>

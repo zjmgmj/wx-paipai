@@ -24,5 +24,34 @@ page{
 .solid-6383AE{
   border: 1px #6383AE solid
 }
+.relative{
+  position: relative
+}
+.full-screen{
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+}
+.submit-btn-absolute{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10rpx;
+}
+.next-btn{
+  height: 101rpx;
+  background: #6383AE;
+  text-align: center;
+  color: #fff;
+  line-height: 101rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0;
+}
+.text-999{
+  color: #999;
+}
 @import "colorui/main.wxss";
 @import "colorui/icon.wxss";

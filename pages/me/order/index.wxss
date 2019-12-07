@@ -1,0 +1,14 @@
+/* pages/me/order/index.wxss */
+.order-content{
+  padding: 15rpx 20rpx;
+  background: #fff;
+  box-sizing: border-box;
+}
+.text-content{
+  line-height: 1.3rem;
+}
+.cu-btn{
+  padding: 0 15rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+}

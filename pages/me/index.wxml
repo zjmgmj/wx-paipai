@@ -1,0 +1,84 @@
+<!--pages/me/index.wxml-->
+<!-- <text>pages/me/index.wxml</text> -->
+<view class="header flex align-center">
+  <view class="acthor-box">
+    <image src="/images/50346f80209143.5cdacfb9e4565.png" style="width: 151rpx; height: 151rpx"></image>
+    <view class="sex-icon">
+      <image src="/images/grid.png" style="width: 44rpx; height: 44rpx"></image>
+    </view>
+  </view>
+  <view class="padding-left-xl text-white">Rachel Franklin</view>
+</view>
+<view class="menu">
+  <view class="flex align-center padding-top-sm padding-bottom-sm padding-left-lg padding-right-lg justify-between">
+    <navigator url="/pages/me/information/index">
+      <view class="menu-list text-center bg-white padding-xs">
+        <view>
+          <image src="/images/me_icon.png" style="width: 70rpx; height: 70rpx"></image>
+        </view>
+        <text>我的信息</text>
+      </view>
+    </navigator>    
+    <navigator url="/pages/me/settleIn/index">
+      <view class="menu-list text-center bg-white padding-xs">
+        <view>
+          <image src="/images/me_icon_1.png" style="width: 70rpx; height: 70rpx"></image>
+        </view>
+        <text>成为摄影师</text>
+      </view>
+    </navigator>  
+    <view class="menu-list text-center bg-white padding-xs">
+      <view>
+        <image src="/images/me_icon_2.png" style="width: 70rpx; height: 70rpx"></image>
+      </view>
+      <text>我的订单</text>
+    </view>
+  </view>
+  <view class="text-center">
+    <image src="/images/banner_parker.png" style="width: 711rpx; height: 179rpx"></image>
+  </view>
+</view>
+<view class="bg-white padding-xs margin-top-xs">
+  <navigator>
+    <view class="list solid-bottom flex justify-between align-center">
+      <view class="basis-df">我的地址</view>
+      <view class="cuIcon-right basis-df text-right"></view>
+    </view>
+  </navigator>
+  <navigator>
+    <view class="list solid-bottom flex justify-between align-center">
+      <view class="basis-df">我的动态</view>
+      <view class="cuIcon-right basis-df text-right"></view>
+    </view>
+  </navigator>  
+  <navigator url="/pages/me/attention/index">
+    <view class="list solid-bottom flex justify-between align-center">
+      <view class="basis-df">我的关注</view>
+      <view class="cuIcon-right basis-df text-right"></view>
+    </view>
+  </navigator>  
+  <navigator>
+    <view class="list solid-bottom flex justify-between align-center">
+      <view class="basis-df">我的优惠券</view>
+      <view class="cuIcon-right basis-df text-right"></view>
+    </view>
+  </navigator>
+  <navigator>
+    <view class="list solid-bottom flex justify-between align-center">
+      <view class="basis-df">关于Orangram</view>
+      <view class="cuIcon-right basis-df text-right"></view>
+    </view>
+  </navigator>
+  <navigator>
+    <view class="list solid-bottom flex justify-between align-center">
+      <view class="basis-df">客服</view>
+      <view class="cuIcon-right basis-df text-right"></view>
+    </view>
+  </navigator>
+  <navigator>
+    <view class="list flex justify-between align-center">
+      <view class="basis-df">服务协议</view>
+      <view class="cuIcon-right basis-df text-right"></view>
+    </view>
+  </navigator>
+</view>

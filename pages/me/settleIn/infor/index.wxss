@@ -1,0 +1,31 @@
+/* pages/me/settleIn/infor/index.wxss */
+.radius{
+  border-radius: 20rpx
+}
+radio .wx-radio-input {
+  width: 35rpx;
+  height: 35rpx;
+}
+radio::before {
+  right: 5rpx;
+}
+.title{
+  width: 155rpx
+}
+textarea {
+  width: 100%
+}
+.cu-form-group{
+  padding: 1rpx 0;
+}
+.grid.grid-square>view>text[class*="cuIcon-"] {
+  color: var(--white);
+  font-size: 100rpx;
+}
+.add-box, .img-box{
+  width: 184rpx;
+  height: 140rpx;
+}
+.grid.grid-square>view{
+  border-radius: 0;
+}

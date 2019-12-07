@@ -1,0 +1,139 @@
+<!--pages/me/order/detail.wxml-->
+<!-- <text>pages/me/order/detail.wxml</text> -->
+<view class="flex align-center justify-between bg-white padding padding-left-sm padding-right-sm">
+  <text class="">订单号：18987689682</text>
+  <!-- <text class="text-yellow">受理中</text> -->
+  <!-- <text class="text-yellow">服务中</text> -->
+  <text class="text-yellow">待支付</text>
+</view>
+<view class="margin-top-sm bg-white padding padding-left-sm padding-right-sm">
+  <view class="solid-bottom padding-bottom align-center flex justify-between">
+    <text class="">拍摄地址</text>
+    <view class="flex align-center text-blue">
+      <text class="cuIcon-locationfill lg"></text>
+      <text class="padding-left-xs">深圳湾公园</text>
+    </view>
+  </view>
+  <view class="align-center flex justify-between padding-top">
+    <text class="">服务时间</text>
+    <text class="">2019-02-13 12:30:12</text>
+  </view>
+</view>
+<view class="margin-top-sm padding-top-sm padding-left-sm padding-right-sm bg-white">
+  <view class="flex align-center justify-between">
+    <view class="flex">
+      <image src="/images/joao-paulo-de-souza-oliveira-QWhQ82y_e8c-unsplash.png" style="width: 139rpx; height: 111rpx;">
+      </image>
+      <view class="flex flex-direction justify-around margin-left-sm">
+        <view class="">中级摄影师</view>
+        <view class="">200/时</view>
+      </view>
+    </view>
+    <text class="text-red">X 8</text>
+  </view>
+
+  <!-- 受理中 -->
+  <!-- <view class="flex justify-between padding-bottom-sm padding-top-sm margin-top-sm solid-top">
+    <text class="">单人淡妆 / ¥60</text>
+    <text class="text-red">¥ 60</text>
+  </view> -->
+
+  <!-- 服务中 、待支付 -->
+  <view class="flex align-center justify-between padding-bottom-sm padding-top-sm margin-top-sm solid-top">
+    <view class="flex align-center">
+      <image src="/images/avatar.png" style="width: 62rpx; height: 62rpx;"></image>
+      <text class="text-blue padding-left-sm">摄影师：South Coby</text>
+    </view>
+    <view class="cuIcon-right lg"></view>
+  </view>
+
+  <!-- 已完成 -->
+  <view class="flex align-center justify-between padding-bottom-sm padding-top-sm margin-top-sm solid-top">
+    <text class="text-blue">查看已修照片</text>
+    <text class="cuIcon-right"></text>
+  </view>
+
+</view>
+<view class="margin-top bg-white padding padding-left-sm padding-right-sm flex justify-between">
+  <text>总价</text>
+  <text class="text-red text-bold">￥1660</text>
+</view>
+
+<view class="margin-top bg-white padding-left-sm padding-right-sm">
+  <view class="flex justify-between padding-top-sm padding-bottom-sm">
+    <text>实际时间（小时）</text>
+    <text class="text-red">X 3</text>
+  </view>
+  <view class="flex justify-between padding-top-sm padding-bottom-sm">
+    <text>实际总价</text>
+    <text class="text-red">¥ 300</text>
+  </view>
+  <view class="flex justify-between padding-top-sm padding-bottom-sm" bindtap="showModal" data-target="bottomModal">
+    <text>优惠券</text>
+    <view class="">
+      <text class="text-red">- ¥ 80</text>
+      <text class="cuIcon-right lg"></text>
+    </view>
+  </view>
+  <view class="flex justify-between padding-top-sm padding-bottom-sm">
+    <text>实际支付</text>
+    <text class="text-red">¥ 220</text>
+  </view>
+  <view class="flex justify-between padding-top-sm padding-bottom-sm">
+    <text>邮箱地址</text>
+    <text class="text-blue">10986775456@qq.com</text>
+  </view>
+</view>
+
+<!-- 受理中 -->
+<!-- <view class="text-center margin-top-lg margin-bottom-lg">
+  <button class="cu-btn radius line-blue">取消订单</button>
+</view> -->
+
+<!-- 待支付 -->
+<!-- <view class="text-center margin-top-lg margin-bottom-lg btn-sm flex justify-center">
+  <view><button class="cu-btn radius bg-blue">邀请砍价</button></view>
+  <view class="margin-left-sm"><button class="cu-btn radius bg-yellow text-white" bindtap="showModal"
+      data-target="Modal">支付</button></view>
+</view> -->
+
+<!-- 待选片 -->
+<view class="text-center margin-top-lg margin-bottom-lg">
+  <button class="cu-btn radius bg-yellow text-white">选片完成</button>
+</view>
+
+<!-- 优惠券选择 -->
+<view class="cu-modal bottom-modal {{modalName=='bottomModal'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="bg-white padding">
+      <view class="text-center padding-bottom solid-bottom text-lg">优惠券使用</view>
+      <radio-group class="response" bindchange="radioChange">
+        <label wx:for-items="{{couponList}}" wx:key="value">
+          <view class="flex padding align-center justify-between response">
+            <text class="">{{item.label}}</text>
+            <radio checked="{{item.checked}}" value="{{item.value}}" class="yellow"></radio>
+          </view>
+        </label>
+      </radio-group>
+      <view class="text-center padding-top solid-top" bindtap="hideModal">取消</view>
+    </view>
+  </view>
+</view>
+
+<!-- 支付成功 -->
+<view class="cu-modal {{modalName=='Modal'?'show':''}}">
+  <view class="cu-dialog bg-white">
+    <view class="cu-bar justify-end">
+      <view class="content">支付成功</view>
+      <!-- <view class="action" bindtap="hideModal">
+        <text class="cuIcon-close text-red"></text>
+      </view> -->
+    </view>
+    <view class="padding-xl">
+      <view class="solid padding-sm">
+        <input type="text" placeholder="请输入您的邮箱"></input>
+      </view>
+    </view>
+    <view class="bg-white solid-top response padding-top-sm padding-bottom-sm" bindtap="hideModal">确定</view>
+  </view>
+</view>

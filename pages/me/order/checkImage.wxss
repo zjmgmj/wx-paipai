@@ -1,0 +1,9 @@
+/* pages/me/order/checkImage.wxss */
+.cu-list.grid>.cu-item {
+  text-align: center;
+  display: block;
+}
+.cu-btn{
+  width: 500rpx;
+  height: 80rpx;
+}

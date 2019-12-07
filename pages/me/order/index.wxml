@@ -1,0 +1,39 @@
+<!--pages/me/order/index.wxml-->
+<!-- <text>pages/me/order/index.wxml</text> -->
+<view class="solid-top">
+  <view class="bg-white">
+    <scroll-view scroll-x class="bg-white nav">
+      <view class="flex text-center">
+        <view class="cu-item flex-sub {{item==TabCur?'text-orange cur':''}}" wx:for="{{tabList}}" wx:key
+          bindtap="tabSelect" data-id="{{item}}"> {{item}}
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="order-content margin-top-sm solid-bottom">
+    <view class="solid-bottom flex align-center padding-top-xs justify-between padding-bottom-sm">
+      <text class="text-lg">初级摄影师</text>
+      <text class="text-yellow">受理中</text>
+    </view>
+    <view class="text-gray text-content padding-top-sm padding-bottom-sm solid-bottom">
+      <view class="">上门时间：2019-2-13 12:30:12</view>
+      <view class="">服务地址：上海市南京西路2389号</view>
+      <view class="">服务时长：2小时 / ¥400</view>
+      <view class="flex justify-between flex-center">
+        <text>化妆：单人淡妆 / ¥60</text>
+        <text class="text-red text-lg text-bold">￥860</text>
+      </view>
+    </view>
+    <view class="padding-top-sm flex justify-between">
+      <view class="flex align-center">
+        <image src="/images/avatar.png" style="width: 50rpx; height: 50rpx;"></image>
+        <text class="padding-left-sm">摄影师：lisa yang</text>
+      </view>
+      <view>
+        <!-- <button class="cu-btn radius line-yellow">取消</button> -->
+        <button class="cu-btn radius line-yellow margin-left-xs">发动态</button>
+        <button class="cu-btn radius line-yellow margin-left-xs">去评价</button>
+      </view>
+    </view>
+  </view>
+</view>

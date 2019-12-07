@@ -1,6 +1,0 @@
-/* pages/product/index.wxss */
-.border-bottom-yellow::after{
-  background: #FE9A48;
-  height: 8rpx;
-  width: 130rpx;
-}

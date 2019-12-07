@@ -1,5 +1,20 @@
 {
   "pages": [
+    "pages/me/order/sendDynamic",
+    "pages/me/order/detail",
+    "pages/me/order/checkImage",
+    "pages/me/order/index",
+    "pages/me/coupon/index",
+    "pages/me/settleIn/verified/index",
+    "pages/me/index",
+    "pages/me/settleIn/infor/index_4",
+    "pages/me/settleIn/infor/index_3",
+    "pages/me/settleIn/infor/index_2",
+    "pages/me/settleIn/infor/index",
+    "pages/me/settleIn/index",
+    "pages/me/bindPhone/index",
+    "pages/me/information/index",
+    "pages/me/attention/index",
     "pages/index/index",
     "pages/dynamic/detail",
     "pages/site/index",
@@ -38,10 +53,10 @@
         "text": "拍摄场地"
       },
       {
-        "pagePath": "pages/product/index",
+        "pagePath": "pages/me/index",
         "iconPath": "/images/xin@2x.png",
         "selectedIconPath": "/images/xin_hover@2x.png",
-        "text": "旅拍产品"
+        "text": "我的"
       }
     ]
   },

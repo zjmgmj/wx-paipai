@@ -1,0 +1,55 @@
+<!--pages/me/attention/index.wxml-->
+<!-- <text>pages/me/attention/index.wxml</text> -->
+<view class="bg-white solid-top attention padding-left-sm padding-right-sm">
+  <view class="padding-bottom padding-top solid-bottom">
+    <view class="flex justify-between align-center">
+      <view class="flex">
+        <view class="author">
+          <image src="/images/nick-fithen-bPfO1LAxamk-unsplash.png" style="width: 80rpx; height: 80rpx"></image>
+          <view class="v-icon">
+            <image src="/images/v.png" style="width: 28rpx; height: 28rpx"></image>
+          </view>
+        </view>
+        <view class="margin-left">
+          <view class="text-lg text-black">摄影小透明</view>
+          <view class="text-gray text-sm margin-top-xs">资深人像摄影师</view>
+        </view>
+      </view>
+      <view class="solid round padding-xs padding-left-xl padding-right-xl">已关注</view>
+    </view>
+  </view>
+  <view class="padding-bottom padding-top solid-bottom">
+    <view class="flex justify-between align-center">
+      <view class="flex">
+        <view class="author">
+          <image src="/images/nick-fithen-bPfO1LAxamk-unsplash.png" style="width: 80rpx; height: 80rpx"></image>
+          <view class="v-icon">
+            <image src="/images/v.png" style="width: 28rpx; height: 28rpx"></image>
+          </view>
+        </view>
+        <view class="margin-left">
+          <view class="text-lg">萌从</view>
+          <view class="text-gray text-sm margin-top-xs">资深人像摄影师</view>
+        </view>
+      </view>
+      <view class="solid round padding-xs padding-left-xl padding-right-xl">已关注</view>
+    </view>
+  </view>
+  <view class="padding-bottom padding-top solid-bottom">
+    <view class="flex justify-between align-center">
+      <view class="flex">
+        <view class="author">
+          <image src="/images/nick-fithen-bPfO1LAxamk-unsplash.png" style="width: 80rpx; height: 80rpx"></image>
+          <view class="v-icon">
+            <image src="/images/v.png" style="width: 28rpx; height: 28rpx"></image>
+          </view>
+        </view>
+        <view class="margin-left">
+          <view class="text-lg">国carry</view>
+          <view class="text-gray text-sm margin-top-xs">资深人像摄影师</view>
+        </view>
+      </view>
+      <view class="solid round padding-xs padding-left-xl padding-right-xl">已关注</view>
+    </view>
+  </view>
+</view>

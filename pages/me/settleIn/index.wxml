@@ -1,0 +1,9 @@
+<!--pages/me/settleIn/index.wxml-->
+<!-- <text>pages/me/settleIn/index.wxml</text> -->
+<view class="full-screen bg-white padding text-gray text-content solid-top padding-bottom-xxl">
+  <view class="padding-bottom-xs">1. 在小橙拍拍创意签约摄影师申请平台页面，按照要求提交身份信息和5张个人作品，编辑将在7个工作日内审核； </view>
+  <view class="padding-bottom-xs">2. 签约摄影师必须仔细阅读并同意《小橙拍拍创意视觉作品代理销售协议》，提交申请即同意该协议中规定的权利与义务。 </view>
+  <view class="padding-bottom-xs">第一步，打开小橙拍拍小程序，点击【成为摄影师】，填写相关资料。 </view>
+  <view class="padding-bottom-xs">第二步，申请页面信息完善。上传身份认证信息，并上传五张你最满意的作品，点击提交，坐等编辑审核即可。</view>  
+</view>
+<button class="next-btn">下一步</button>

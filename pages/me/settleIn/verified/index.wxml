@@ -1,0 +1,17 @@
+<!--pages/me/settleIn/verified/index.wxml-->
+<!-- <text>pages/me/settleIn/verified/index.wxml</text> -->
+<view class="bg-white full-screen padding solid-top padding-bottom-xxl">
+  <!-- <view class="text-center">为了保障摄影师的合法权益，需要先实名认证哦！</view>
+  <view class="cardID">
+    <view class="cardID-bg text-xxl" style=" background: url('../../../../images/IDI.png') no-repeat 0rpx 0rpx / 100% 100%">
+      <text class="cuIcon-roundaddfill text-yellow"></text>
+    </view>
+  </view> -->
+  <view class="text-center padding">
+    <image src="../../../../images/moderated.png" style="width: 300rpx; height: 230rpx"></image>
+    <view class="margin-top-sm text-xl text-bold">已提交</view>
+    <view class="margin-top text-content">我们会按照申请时间和地区饱和度进行审核，如果符合条件，大概一周左右会收到我们通知。</view>
+  </view>
+</view>
+<!-- <button class="next-btn">下一步</button> -->
+<button class="next-btn">确定</button>

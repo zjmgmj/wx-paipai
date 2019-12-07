@@ -1,0 +1,35 @@
+/* pages/me/index.wxss */
+.header{
+  background: #6383AE;
+  width: 100vw;
+  height: 245rpx;
+  padding-top: 0rpx;
+  padding-left: 91rpx;
+}
+.acthor-box{
+  width: 151rpx;
+  height: 151rpx;
+  position: relative;
+}
+.sex-icon{
+  width: 44rpx;
+  height: 44rpx;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.menu{
+  width:750rpx;
+  height:372rpx;
+  background:rgba(243,241,241,1);
+}
+
+.menu-list{
+  width: 206rpx;
+  height: 148rpx;
+}
+.list{
+  padding: 30rpx 10rpx
+  /* line-height: 40rpx */
+}

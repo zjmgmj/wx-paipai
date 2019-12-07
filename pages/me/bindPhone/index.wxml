@@ -1,0 +1,14 @@
+<!--pages/me/bindPhone/index.wxml-->
+<!-- <text>pages/me/bindPhone/index.wxml</text> -->
+<view class="bg-white full-screen solid-top padding">
+  <view class="solid-bottom padding-bottom padding-left-sm">
+    <input placeholder="请输入您的手机号"></input>
+  </view>
+  <view class="solid-bottom flex padding-bottom padding-top padding-left-sm">
+    <input class="flex-sub padding-right" placeholder="请输入验证码"></input>
+    <button class="code-btn text-sm text-6383AE">获取验证码</button>
+  </view>
+  <view class="padding submit-btn-absolute flex">
+    <button class="cu-btn bg-yellow lg margin-top text-white flex-sub">绑定</button>
+  </view>  
+</view>

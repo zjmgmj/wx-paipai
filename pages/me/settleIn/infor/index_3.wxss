@@ -1,0 +1,20 @@
+/* pages/me/settleIn/infor/index_3.wxss */
+.check-btn{
+  padding: 10rpx 20rpx;
+  background: #EAE9E9;
+  margin: 0 10rpx;
+  border-radius: 10rpx;
+}
+.check-btn.active{
+  background: #FE9A48;
+  color: #fff;
+}
+.radius{
+  border-radius: 20rpx
+}
+.cu-form-group{
+  padding: 1rpx 0
+}
+.cu-form-group+.cu-form-group{
+  border-top: none
+}

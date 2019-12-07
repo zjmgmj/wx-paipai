@@ -20,7 +20,7 @@ page {
 	--olive: #8dc63f;
 	--green: #39b54a;
 	--cyan: #1cbbb4;
-	--blue: #0081ff;
+	--blue: #6383AE;
 	--purple: #6739b6;
 	--mauve: #9c26b0;
 	--pink: #e03997;
@@ -3039,7 +3039,7 @@ scroll-view.cu-steps .cu-item {
 }
 
 .margin {
-	margin: 30rpx;
+	margin: 30rpx;  
 }
 
 .margin-lg {
@@ -3262,6 +3262,9 @@ scroll-view.cu-steps .cu-item {
 
 .padding-bottom-xl {
 	padding-bottom: 50rpx;
+}
+.padding-bottom-xxl {
+	padding-bottom: 100rpx;
 }
 
 .padding-left-xs {

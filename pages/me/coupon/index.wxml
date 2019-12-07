@@ -1,0 +1,55 @@
+<!--pages/me/coupon/index.wxml-->
+<!-- <text>pages/me/coupon/index.wxml</text> -->
+<view class="bg-white full-screen padding-xl solid-top">
+  <view class="coupon-box">
+    <view class="text-lg">请输入优惠券兑换码</view>
+    <view class="flex margin-top-sm">
+      <view class="solid input">
+        <input type="text"></input>
+      </view>
+      <button class="radius text-sm bg-yellow text-white button">兑换</button>
+    </view>
+    <view class="flex margin-top">
+      <view class="bg-yellow coupon-price text-white padding radius">
+        <text>￥</text>
+        <text class="text-sl">15</text>
+      </view>
+      <view class="flex-sub radius coupon-price-detail">
+        <view>小橙拍拍优惠券</view>
+        <view class="text-999 text-sm margin-top-xs">优惠券有效期至 2020-3.12</view>
+        <view class="flex justify-between margin-top-xs">
+          <view class="text-999 text-sm self-end">说明：满200减15</view>
+          <button class="cu-btn sm line-red radius margin-left-xs margin-right-sm">去使用</button>
+        </view>
+      </view>
+    </view>
+    <view class="flex margin-top">
+      <view class="bg-yellow coupon-price text-white padding radius">
+        <text>￥</text>
+        <text class="text-sl">15</text>
+      </view>
+      <view class="flex-sub radius coupon-price-detail">
+        <view>小橙拍拍优惠券</view>
+        <view class="text-999 text-sm margin-top-xs">优惠券有效期至 2020-3.12</view>
+        <view class="flex justify-between margin-top-xs">
+          <view class="text-999 text-sm self-end">说明：满200减15</view>
+          <button class="cu-btn sm line-red radius margin-left-xs margin-right-sm">去使用</button>
+        </view>
+      </view>
+    </view>
+    <view class="flex margin-top">
+      <view class="bg-yellow coupon-price text-white padding radius">
+        <text>￥</text>
+        <text class="text-sl">15</text>
+      </view>
+      <view class="flex-sub radius coupon-price-detail">
+        <view>小橙拍拍优惠券</view>
+        <view class="text-999 text-sm margin-top-xs">优惠券有效期至 2020-3.12</view>
+        <view class="flex justify-between margin-top-xs">
+          <view class="text-999 text-sm self-end">说明：满200减15</view>
+          <button class="cu-btn sm line-red radius margin-left-xs margin-right-sm">去使用</button>
+        </view>
+      </view>
+    </view>  
+  </view>  
+</view>

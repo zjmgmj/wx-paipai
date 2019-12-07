@@ -1,0 +1,25 @@
+/* pages/me/order/detail.wxss */
+.cu-btn{
+  width: 500rpx;
+  height: 80rpx;
+  margin: 0 auto 20rpx;
+}
+.btn-sm .cu-btn{
+  width: 250rpx;
+  height: 80rpx;  
+}
+.coupon-picker{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  height: 523rpx;
+  overflow: auto;
+}
+radio .wx-radio-input {
+  width: 35rpx;
+  height: 35rpx;
+}
+radio::before {
+  right: 5rpx;
+}

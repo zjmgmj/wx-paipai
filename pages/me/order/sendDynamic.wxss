@@ -1,0 +1,17 @@
+/* pages/me/order/sendDynamic.wxss */
+.grid.grid-square>view>text[class*="cuIcon-"] {
+  color: var(--white);
+  font-size: 100rpx;
+}
+.grid.col-3.grid-square>view.add-box, .grid.col-3.grid-square>view.img-box{
+  width: 205rpx;
+  height: 163rpx;
+  padding: 0;
+}
+.grid.grid-square>view{
+  border-radius: 0;
+}
+.cu-btn{
+  width: 500rpx;
+  height: 80rpx;
+}

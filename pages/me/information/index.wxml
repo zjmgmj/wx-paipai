@@ -1,0 +1,38 @@
+<!--pages/me/information/index.wxml-->
+<!-- <text>pages/me/information/index.wxml</text> -->
+<view class="content bg-white padding-left-sm padding-right-sm solid-top">
+  <view class="list solid-bottom flex align-center justify-between padding-top padding-bottom">
+    <view class="basis-df">头像</view>
+    <image src="/images/nick-fithen-bPfO1LAxamk-unsplash.png" style="width: 59rpx; height: 59rpx"></image>
+  </view>
+  <view class="list solid-bottom flex align-center justify-between padding-top padding-bottom">
+    <view class="basis-df">昵称</view>
+    <view class="text-6383AE">Lisa</view>
+  </view>
+  <view class="list solid-bottom flex align-center justify-between padding-top padding-bottom">
+    <view class="basis-df">真实姓名</view>
+    <view class="text-6383AE">李杨柳</view>
+  </view>
+  <view class="list solid-bottom flex align-center justify-between padding-top padding-bottom">
+    <view class="basis-df">性别</view>
+    <view class="text-6383AE">
+      <text>女</text>
+      <icon class="cuIcon-right"></icon>
+    </view>
+  </view>
+  <navigator url="/pages/me/bindPhone/index">
+    <view class="list solid-bottom flex align-center justify-between padding-top padding-bottom">
+      <view class="basis-df">手机号</view>
+      <view class="text-6383AE">绑定手机号</view>
+    </view>
+  </navigator>
+  <view class="list solid-bottom flex align-center justify-between padding-top padding-bottom">
+    <view class="basis-df">微信号</view>
+    <view class="text-gray text-right">
+      <input type="text" placeholder="请输入"></input>
+    </view>
+  </view>
+  <view class="padding submit-btn-absolute flex">
+    <button class="cu-btn bg-yellow lg margin-top text-white flex-sub">提交</button>
+  </view>  
+</view>

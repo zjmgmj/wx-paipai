@@ -1,0 +1,100 @@
+<!--pages/me/settleIn/infor/index.wxml-->
+<!-- <text>pages/me/settleIn/infor/index.wxml</text> -->
+<view class="bg-white full-screen padding solid-top padding-bottom-xxl">
+ <view class="margin-bottom">
+  <view class="margin-bottom-sm">
+    <text class="text-red">*</text>
+    <text>姓名</text>
+  </view>
+  <view class="solid radius padding-xs from-box">
+    <input type="text" placeholder="请输入"></input>
+  </view>  
+ </view>
+ <view class="margin-bottom">
+  <view class="margin-bottom-sm">
+    <text class="text-red">*</text>
+    <text>手机号</text>
+  </view>
+  <view class="solid radius padding-xs from-box">
+    <input type="text" placeholder="请输入"></input>
+  </view>  
+ </view>
+ <view class="margin-bottom">
+  <view class="margin-bottom-sm">
+    <text class="text-red">*</text>
+    <text>微信号</text>
+  </view>
+  <view class="solid radius padding-xs from-box">
+    <input type="text" placeholder="请输入"></input>
+  </view>  
+ </view>
+ <view class="margin-bottom">
+  <view class="margin-bottom-sm">
+    <text class="text-red">*</text>
+    <text>年龄</text>
+  </view>
+  <view class="solid radius padding-xs from-box">
+    <input type="number" placeholder="请输入"></input>
+  </view>  
+ </view>
+ <view class="margin-bottom">
+  <view class="margin-bottom-sm">
+    <text class="text-red">*</text>
+    <text>性别</text>
+  </view>
+  <radio-group class="padding-xs">    
+    <label>
+      <radio class="blue"></radio>
+      <text class="padding-left-sm">男</text>
+    </label>    
+    <label class="margin-left-xl">
+      <radio class="blue"></radio>
+      <text class="padding-left-sm">女</text>
+    </label>
+  </radio-group>  
+ </view>
+ <view class="flex solid-bottom padding-bottom margin-bottom">
+  <view class="title">擅长风格</view>
+  <view class="flex flex-wrap padding-left">
+    <view class="padding-xs">
+      <view class="cu-tag line-blue radius">风景</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag line-blue radius">人物写真</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag line-blue radius">企业活动照</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag line-blue radius">产品照</view>
+    </view>
+    <view class="padding-xs">
+      <view class="cu-tag line-blue radius">儿童摄影</view>
+    </view>
+  </view>
+ </view>
+ <view class="margin-bottom">
+    <view class="margin-bottom-sm">个人介绍</view>
+    <view class="solid radius padding-sm">
+      <textarea placeholder="请填写个人介绍" maxlength="300"></textarea>
+    </view>
+  </view>
+  <view class="margin-bottom">
+    <view class="margin-bottom-sm">上传作品图片</view>
+    <view class="cu-form-group">
+      <!-- <view class="grid col-4 grid-square flex-sub"> -->
+      <view class="grid grid-square flex-sub">
+        <view class="bg-img img-box" wx:for="{{imgList}}" wx:key="{{index}}" bindtap="ViewImage" data-url="{{imgList[index]}}">
+          <image src='{{imgList[index]}}' mode='aspectFill'></image>
+          <view class="cu-tag bg-red" catchtap="DelImg" data-index="{{index}}">
+            <text class="cuIcon-close"></text>
+          </view>
+        </view>
+        <view class="bg-gray add-box" bindtap="ChooseImage" wx:if="{{imgList.length<9}}">
+          <text class="cuIcon-add"></text>
+        </view>
+      </view>
+	  </view>
+  </view>
+</view>
+<button class="next-btn">下一步</button>
